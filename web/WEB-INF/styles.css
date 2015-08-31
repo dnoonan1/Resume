@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 31, 2015, 6:33:48 PM
+    Author     : Dan
+*/
+
+@page {
+    margin: 0.5in;
+}
+
+body {
+    font-family: Century Gothic;
+    font-size: 11pt;
+}
+
+#name h1 {
+    font-size: 36pt;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 2px dotted #333;
+}
+
+h1 span#last-name {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 12pt;
+    font-variant: small-caps;
+}
+
+a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Contact */
+
+#contact {
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact li {
+    display: inline;
+    margin-left: 0;
+}
+
+#contact li:after {
+    content: " | ";
+}
+
+#contact li:last-child:after {
+    content: "";
+}
+
+#phone-home:before {
+    content: "H: ";
+}
+
+#phone-cell:before {
+    content: "C: ";
+}
+
+/* Summary */
+
+#summary h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Work Experience, Education */
+
+#job-experience ul, #education ul, #community-involvement ul {
+    list-style-type: none;
+}
+
+#software-languages li {
+    display: inline;
+    list-style-type: disc;
+}
+
+#software-languages li:after {
+    content: " \2022 ";
+}
+
+#software-languages li:last-child:after {
+    content: "";
+}
+
+.job, .school, .organization {
+    margin-bottom: 6pt;
+} 
+
+.company-name, .school-name, .organization-name {
+    font-weight: bold;
+    float: left;
+}
+
+.city, .years {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.program, .years {
+    font-style: italic;
+}
+
+/* Awards */
+#awards {
+    display: none;
+}
+
+#references h2 {
+    display: inline;
+}
+
